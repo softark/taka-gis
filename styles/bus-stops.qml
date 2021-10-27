@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis simplifyAlgorithm="0" simplifyDrawingTol="1" labelsEnabled="1" simplifyMaxScale="1" readOnly="0" simplifyLocal="1" version="3.20.3-Odense" styleCategories="LayerConfiguration|Symbology|Labeling|Fields|AttributeTable|Rendering" hasScaleBasedVisibilityFlag="0" minScale="100000000" simplifyDrawingHints="0" maxScale="0">
+<qgis labelsEnabled="1" readOnly="0" version="3.20.3-Odense" styleCategories="LayerConfiguration|Symbology|Labeling|Fields|AttributeTable">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
@@ -121,7 +121,7 @@
     <settings calloutType="simple">
       <text-style fontSize="12" fontKerning="1" fontLetterSpacing="0" textColor="0,130,24,255" fontItalic="0" capitalization="0" allowHtml="0" fieldName="'A-'||&quot;順番&quot;||' '||&quot;集落&quot;||'\n'|| &quot;名称&quot;" useSubstitutions="0" previewBkgrdColor="255,255,255,255" fontUnderline="0" legendString="Aa" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" fontFamily="UD デジタル 教科書体 NK-B" fontWordSpacing="0" multilineHeight="1" fontSizeUnit="Point" namedStyle="Bold" textOrientation="horizontal" fontWeight="75" textOpacity="1" isExpression="1" blendMode="0">
         <families/>
-        <text-buffer bufferSize="0.99999999999999989" bufferSizeUnits="MM" bufferColor="255,255,255,255" bufferBlendMode="0" bufferDraw="1" bufferOpacity="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0"/>
+        <text-buffer bufferSize="1" bufferSizeUnits="MM" bufferColor="255,255,255,255" bufferBlendMode="0" bufferDraw="1" bufferOpacity="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="0"/>
         <text-mask maskEnabled="0" maskSize="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskOpacity="1" maskSizeUnits="MM" maskedSymbolLayers="" maskType="0" maskJoinStyle="128"/>
         <background shapeBorderWidthUnit="Point" shapeRadiiX="0" shapeBlendMode="0" shapeBorderWidth="0" shapeRotation="0" shapeRadiiUnit="Point" shapeSizeUnit="Point" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOffsetY="0" shapeRotationType="0" shapeJoinStyle="64" shapeOffsetUnit="Point" shapeType="0" shapeSizeType="0" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeSVGFile="" shapeBorderColor="128,128,128,255" shapeSizeY="0.29999999999999999" shapeSizeX="0.29999999999999999" shapeOpacity="1">
           <symbol type="marker" force_rhr="0" alpha="1" name="markerSymbol" clip_to_extent="1">
@@ -236,12 +236,18 @@
         <substitutions/>
       </text-style>
       <text-format autoWrapLength="0" leftDirectionSymbol="&lt;" placeDirectionSymbol="0" formatNumbers="0" multilineAlign="1" decimals="3" plussign="0" rightDirectionSymbol=">" wrapChar="" useMaxLineLengthForAutoWrap="1" addDirectionSymbol="0" reverseDirectionSymbol="0"/>
-      <placement preserveRotation="1" geometryGeneratorEnabled="0" placementFlags="10" dist="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorType="PointGeometry" maxCurvedCharAngleOut="-25" centroidWhole="0" polygonPlacementFlags="2" overrunDistanceUnit="MM" rotationAngle="0" fitInPolygonOnly="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" layerType="PointGeometry" offsetUnits="MM" priority="5" distMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="25" repeatDistance="0" overrunDistance="0" lineAnchorClipping="0" centroidInside="0" offsetType="1" repeatDistanceUnits="MM" geometryGenerator="" xOffset="0" distUnits="MM" lineAnchorPercent="0.5" yOffset="-4.9999999999999964" placement="1" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" lineAnchorType="0" quadOffset="1" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR"/>
+      <placement preserveRotation="1" geometryGeneratorEnabled="0" placementFlags="10" dist="4.5" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorType="PointGeometry" maxCurvedCharAngleOut="-25" centroidWhole="0" polygonPlacementFlags="2" overrunDistanceUnit="MM" rotationAngle="0" fitInPolygonOnly="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" layerType="PointGeometry" offsetUnits="MM" priority="5" distMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="25" repeatDistance="0" overrunDistance="0" lineAnchorClipping="0" centroidInside="0" offsetType="1" repeatDistanceUnits="MM" geometryGenerator="" xOffset="0" distUnits="MM" lineAnchorPercent="0.5" yOffset="-5" placement="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" lineAnchorType="0" quadOffset="1" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR"/>
       <rendering obstacleType="1" upsidedownLabels="0" minFeatureSize="0" zIndex="0" unplacedVisibility="0" drawLabels="1" limitNumLabels="0" scaleMin="0" fontLimitPixelSize="0" maxNumLabels="2000" obstacle="1" displayAll="0" obstacleFactor="1" fontMinPixelSize="3" scaleVisibility="0" fontMaxPixelSize="10000" scaleMax="0" mergeLines="0" labelPerPart="0"/>
       <dd_properties>
         <Option type="Map">
           <Option type="QString" value="" name="name"/>
-          <Option name="properties"/>
+          <Option type="Map" name="properties">
+            <Option type="Map" name="OffsetQuad">
+              <Option type="bool" value="true" name="active"/>
+              <Option type="QString" value="label-pos" name="field"/>
+              <Option type="int" value="2" name="type"/>
+            </Option>
+          </Option>
           <Option type="QString" value="collection" name="type"/>
         </Option>
       </dd_properties>
@@ -273,13 +279,13 @@
   </labeling>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
-  <layerOpacity>1</layerOpacity>
   <fieldConfiguration>
     <field name="id" configurationFlags="None"/>
     <field name="順番" configurationFlags="None"/>
     <field name="集落" configurationFlags="None"/>
     <field name="名称" configurationFlags="None"/>
     <field name="時刻" configurationFlags="None"/>
+    <field name="label-pos" configurationFlags="None"/>
   </fieldConfiguration>
   <aliases>
     <alias field="id" name="" index="0"/>
@@ -287,6 +293,7 @@
     <alias field="集落" name="" index="2"/>
     <alias field="名称" name="" index="3"/>
     <alias field="時刻" name="" index="4"/>
+    <alias field="label-pos" name="" index="5"/>
   </aliases>
   <defaults>
     <default applyOnUpdate="0" field="id" expression=""/>
@@ -294,6 +301,7 @@
     <default applyOnUpdate="0" field="集落" expression=""/>
     <default applyOnUpdate="0" field="名称" expression=""/>
     <default applyOnUpdate="0" field="時刻" expression=""/>
+    <default applyOnUpdate="0" field="label-pos" expression=""/>
   </defaults>
   <constraints>
     <constraint field="id" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
@@ -301,6 +309,7 @@
     <constraint field="集落" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
     <constraint field="名称" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
     <constraint field="時刻" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+    <constraint field="label-pos" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
   </constraints>
   <constraintExpressions>
     <constraint exp="" field="id" desc=""/>
@@ -308,6 +317,7 @@
     <constraint exp="" field="集落" desc=""/>
     <constraint exp="" field="名称" desc=""/>
     <constraint exp="" field="時刻" desc=""/>
+    <constraint exp="" field="label-pos" desc=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributetableconfig sortOrder="1" actionWidgetStyle="dropDown" sortExpression="&quot;順番&quot;">
@@ -318,6 +328,7 @@
       <column type="field" width="-1" hidden="0" name="名称"/>
       <column type="field" width="-1" hidden="0" name="時刻"/>
       <column type="actions" width="-1" hidden="1"/>
+      <column type="field" width="-1" hidden="0" name="label-pos"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
